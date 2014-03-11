@@ -1,5 +1,17 @@
 [
     "index.md",
-    "rails-part.md",
-    "ios-part.md"
+    "ios-part.md",
+    "install-cocoapods.md",
+    "create-new-project.md",
+    "create-podfile.md",
+    "pod-install.md",
+    "make-mvc.md",
+    "afnetworking.md",
+    "singleton.md",
+    "snippet.md",
+    "header.md",
+    "model-method.md",
+    "login.md",
+    "get-posts.md",
+    "view-controller.md"
 ]

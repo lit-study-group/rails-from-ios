@@ -1,10 +1,6 @@
 
-# IwarkStudyMeeting#6
+# いわーく<br />勉強会#6
 
-From the terminal, pop in:
+<br />
 
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+##アプリパート
