@@ -13,5 +13,6 @@
     "model-method.md",
     "login.md",
     "get-posts.md",
-    "view-controller.md"
+    "view-controller.md",
+    "feed.md"
 ]

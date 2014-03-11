@@ -26,6 +26,7 @@
     _modelManager = [ModelManager sharedManager];
 
     [_modelManager addObserver:self forKeyPath:@"user" options:0 context:nil];
+    [_modelManager addObserver:self forKeyPath:@"posts" options:0 context:nil];
 
     NSDictionary *params = @{
                                 @"user":@{
@@ -47,6 +48,12 @@
     }else if([keyPath isEqualToString:@"posts"]){
         NSLog(@"posts:%@",_modelManager.posts);
     }
+}
+
+- (void)dealloc
+{
+    [_modelManager removeObserver:self forKeyPath:@"user"];
+    [_modelManager removeObserver:self forKeyPath:@"posts"];
 }
 
 ...
